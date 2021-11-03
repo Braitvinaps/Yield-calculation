@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Расчет выхода по стадии таблетирования</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Расчет выхода по стадии таблетирования</h1>
+    
+        <div>
+            Загружено смеси для таблетирования A, кг
+            <input class="A" type="number" placeholder="необходимо заполнить">
+        </div>
+        <div>
+            Получено таблеток, первая загрузка B1, кг
+            <input class="B1" type="number" placeholder="необходимо заполнить">
+        </div>
+        <div>
+            Получено таблеток, вторая загрузка B2, кг
+            <input class="B2" type="number" placeholder="необходимо заполнить">
+        </div>
+        <div class="B">Получено таблеток общее B, кг
+        </div>
+        <div>Брак C, кг
+            <input class="C" type="number" placeholder="необходимо заполнить">
+        </div>
+        <div>Отбор проб D, кг
+            <input class="D" type="number" value="0.0028">
+        </div>
+        <div class="E">Потери E, кг
+        </div>
+        <div>
+            Средняя масса таблетки, первая загрузка F1, мг
+            <input class="F1" type="number" placeholder="необходимо заполнить">
+        </div>
+        <div>
+            Средняя масса таблетки, вторая загрузка F2, мг
+            <input class="F2" type="number" placeholder="необходимо заполнить">
+        </div>
+        <div class="K1">
+            Колличество таблеток после стадии таблетирования K1, первая загрузка, шт
+        </div>
+        <div class="K2">
+            Колличество таблеток после стадии таблетирования K2, вторая загрузка, шт
+        </div>
+        <div class="K">
+            Колличество таблеток после стадии таблетирования общее K, шт
+        </div>
+        <div class="Y">Выход, %
+        </div>
+        <div>Стандартное отклонение StdDev G1, первая загрузка, мг
+            <input class="G1" type="number" placeholder="необходимо заполнить">
+        </div>
+        <div>Стандартное отклонение StdDev G2, вторая загрузка, мг
+            <input class="G2" type="number" placeholder="необходимо заполнить">
+        </div>
+        <div class="H1">Min масса таблетки H1, первая загрузка, мг
+        </div>
+        <div class="H2">Min масса таблетки H2, вторая загрузка, мг
+        </div>
+        <div class="I1">Max масса таблетки I1, первая загрузка, мг
+        </div>
+        <div class="I2">Max масса таблетки I2, вторая загрузка, мг
+        </div>
+        <div class="Y1">Колличество таблеток с Min массой Y1, первая загрузка, шт
+        </div>
+        <div class="Y2">Колличество таблеток с Min массой, Y2 вторая загрузка, шт
+        </div>
+        <div class="Z1">Колличество таблеток с Max массой Z1, первая загрузка, шт
+        </div>
+        <div class="Z2">Колличество таблеток с Max массой Z2, вторая загрузка, шт
+        </div>
+        
+        <button>Рассчитать</button>
+    
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
