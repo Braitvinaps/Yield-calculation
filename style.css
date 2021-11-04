@@ -21,12 +21,17 @@ div {
 }
 
 .form-group input {
+    
     width:fit-content;
     font-size: 16px;
     box-sizing: border-box;
     border: none;
     font-family: inherit;
 }
+@media (max-width: 600px) {
+    .form-group input {display: flex;flex-wrap: wrap;}
+}
+
 
 span {
     background-color: rgb(150, 247, 85);
