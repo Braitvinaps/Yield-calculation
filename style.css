@@ -17,7 +17,6 @@ h1 {
 
 div {
     line-height: 2em;
-    margin: none;
 }
 
 .form-group input {
@@ -28,10 +27,6 @@ div {
     border: none;
     font-family: inherit;
 }
-@media (max-width: 600px) {
-    .form-group input {display: flex;flex-wrap: wrap;}
-}
-
 
 span {
     background-color: rgb(150, 247, 85);
