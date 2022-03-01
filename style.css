@@ -1,6 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
+
 .container {
+    position: absolute;
+    left: 50%;
+    top: 100%;
+    transform: translate(-50%, -50%);
     background-image: url(https://www.umweltbundesamt.de/sites/default/files/medien/378/bilder/arzneimittel_stillfx_fotolia_41089054_m.jpg);
     border-radius: 30px;
     color: #000;
